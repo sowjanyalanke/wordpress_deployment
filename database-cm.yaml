@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpressdb-configurations
+data:
+  dbhost: mysql-service
+  dbname: wpdb
+  dbuser: wpuser
+  dbpassword: DEVOPS12345
+  mysqlrootpassword: DEVOPS1
